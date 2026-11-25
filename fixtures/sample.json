@@ -1,5 +1,27 @@
 {
   "说明": "本地合成演练资料",
-  "业务对象": "供应商时态修订与采购事实双视角",
-  "记录": []
+  "业务对象": "工厂班次能力修订与生产事实归属",
+  "记录": [
+    {
+      "factory": "F1",
+      "line": "L2",
+      "shift": "night",
+      "valid_from": "2026-10-20T00:00:00Z",
+      "capacity": 80
+    },
+    {
+      "factory": "F1",
+      "line": "L2",
+      "shift": "night",
+      "valid_from": "2026-10-21T00:00:00Z",
+      "capacity": 72
+    },
+    {
+      "factory": "F1",
+      "line": "L3",
+      "shift": "day",
+      "valid_from": "2026-10-20T00:00:00Z",
+      "capacity": 90
+    }
+  ]
 }
